@@ -1,14 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="./intersection.ico" />
-    <title>Upsleek Css Component library</title>
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <h1>Upsleek CSS Component Library</h1>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="./intersection.ico" />
+  <title>Upsleek Css Component library</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+
+  <main class="container-center-md">
+    <h1 class="mt-md mb-md">Upsleek CSS Component Library</h1>
+
+    <section>
+      <h2 class="mt-lg mb-md">Buttons</h2>
+      <p class="mt-md mb-md">Basic buttons</p>
+      <div class="flex flex-wrap flex-gap-md">
+        <button class="btn btn-primary">Primary</button>
+        <button class="btn btn-secondary">Secondary</button>
+        <button class="btn btn-success">Success</button>
+        <button class="btn btn-warning">Warning</button>
+        <button class="btn btn-danger">Danger</button>
+        <button class="btn btn-info">Info</button>
+      </div>
+      <p class="mt-md mb-md">Outline buttons</p>
+      <div class="flex flex-wrap flex-gap-md">
+        <button class="btn btn-outline-primary">Primary</button>
+        <button class="btn btn-outline-secondary">Secondary</button>
+        <button class="btn btn-outline-success">Success</button>
+        <button class="btn btn-outline-warning">Warning</button>
+        <button class="btn btn-outline-danger">Danger</button>
+        <button class="btn btn-outline-info">Info</button>
+      </div>
+      <p class="mt-md mb-md">Disabled buttons</p>
+      <div class="flex flex-wrap flex-gap-md">
+        <button class="btn btn-primary" disabled>Primary</button>
+        <button class="btn btn-secondary" disabled>Secondary</button>
+        <button class="btn btn-success" disabled>Success</button>
+        <button class="btn btn-warning" disabled>Warning</button>
+        <button class="btn btn-danger" disabled>Danger</button>
+        <button class="btn btn-info" disabled>Info</button>
+      </div>
+      <p class="mt-md mb-md">Buttons with icons</p>
+      <div class="flex flex-wrap flex-gap-md">
+        <button class="btn btn-outline-primary"> <i class="fas fa-shopping-cart"></i> Add to Cart </button>
+        <button class="btn btn-primary"> <i class="fas fa-shopping-cart"></i> Add to Cart </button>
+      </div>
+      <p class="mt-md mb-md">Link buttons</p>
+      <div class="flex flex-wrap flex-gap-md">
+        <a href="./" class="btn btn-primary">Primary link</a>
+        <a href="./" class="btn btn-secondary">Secondary link</a>
+      </div>
+      <p class="mt-md mb-md">Button sizes</p>
+      <div class="flex flex-wrap flex-gap-md">
+        <button class="btn btn-primary btn-xl">Button XL</button>
+        <button class="btn btn-primary btn-lg">Button LG</button>
+        <button class="btn btn-primary btn-md">Button MD</button>
+        <button class="btn btn-primary btn-sm">Button SM</button>
+      </div>
+      <p class="mt-md mb-md">Floating action button</p>
+      <div class="flex flex-wrap flex-gap-md">
+        <button class="btn btn-primary btn-float-action"><i class="fas fa-plus"></i></button>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="mt-lg mb-md">Alerts</h2>
+      <div class="flex flex-col flex-wrap flex-gap-xs">
+        <div class="alert alert-primary">This is a primary alert! </div>
+        <div class="alert alert-success">This is a success alert! </div>
+        <div class="alert alert-warning">This is a warning alert! </div>
+        <div class="alert alert-danger">This is a danger alert! </div>
+        <div class="alert alert-info">This is a info alert! </div>
+      </div>
+      <h2 class="mt-lg mb-md">Alerts with icons</h2>
+      <div class="flex flex-col flex-wrap flex-gap-xs">
+        <div class="alert alert-success">
+          <i class="fas fa-check-circle"></i>
+          This is a success alert!
+        </div>
+        <div class="alert alert-warning">
+          <i class="fas fa-exclamation-triangle"></i>
+          This is a warning alert!
+        </div>
+        <div class="alert alert-danger">
+          <i class="fas fa-exclamation-triangle"></i>
+          This is a danger alert!
+        </div>
+        <div class="alert alert-info">
+          <i class="fas fa-info-circle"></i>
+          This is an info alert!
+        </div>
+      </div>
+      <h2 class="mt-lg mb-md">Alerts with dismiss</h2>
+      <div class="flex flex-wrap flex-col flex-gap-xs">
+        <div class="alert alert-success" id="alert-dimiss">
+          <i class="fas fa-check-circle"></i>
+          This is a success alert with a dismiss!
+          <i class="fas fa-times icon-dismiss" id="alert-dimiss-btn"></i>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+
 </html>

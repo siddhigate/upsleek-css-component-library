@@ -1,0 +1,44 @@
+.alert {
+  border-radius: 0.3rem;
+  padding: 1rem 3rem 1rem 1rem;
+  font-size: 1rem;
+  margin: 1rem 0;
+  position: relative;
+}
+
+.alert-success {
+  color: var(--clr-green-dark);
+  background-color: var(--clr-green-light);
+}
+
+.alert-danger {
+  color: var(--clr-red-dark);
+  background-color: var(--clr-red-light);
+}
+
+.alert-warning {
+  color: var(--clr-yellow-dark);
+  background-color: var(--clr-yellow-light);
+}
+
+.alert-info {
+  color: var(--clr-blue-dark);
+  background-color: var(--clr-blue-light);
+}
+
+.alert-primary {
+  color: var(--clr-primary-dark);
+  background-color: var(--clr-primary-light);
+}
+
+.alert i {
+  margin-right: 1rem;
+}
+
+.alert .icon-dismiss {
+  text-align: right;
+  position: absolute;
+  font-size: 1.25rem;
+  right: 0;
+  cursor: pointer;
+}

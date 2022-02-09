@@ -1,0 +1,191 @@
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin: 0.5rem 0;
+  border-radius: 0.2rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+}
+
+.btn:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 4px 25px 35px 4px;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: no-drop;
+}
+
+/* 
+    Basic Buttons
+*/
+.btn-primary {
+  background-color: var(--clr-primary);
+}
+
+.btn-secondary {
+  background-color: var(--clr-secondary);
+}
+
+.btn-success {
+  background-color: var(--clr-green);
+}
+
+.btn-danger {
+  background-color: var(--clr-red);
+}
+
+.btn-warning {
+  background-color: var(--clr-yellow);
+}
+
+.btn-info {
+  background-color: var(--clr-blue-dark);
+}
+
+.btn-primary:hover {
+  background-color: var(--clr-primary-dark);
+}
+
+.btn-secondary:hover {
+  background-color: var(--clr-secondary-dark);
+}
+
+.btn-success:hover {
+  background-color: var(--clr-green-dark);
+}
+
+.btn-danger:hover {
+  background-color: var(--clr-red-dark);
+}
+
+.btn-warning:hover {
+  background-color: var(--clr-yellow-dark);
+}
+
+.btn-info:hover {
+  background-color: var(--clr-blue-dark);
+}
+
+/* 
+    Outline Buttons
+*/
+.btn-outline-primary {
+  color: var(--clr-primary);
+  outline: var(--clr-primary) solid 1px;
+}
+
+.btn-outline-secondary {
+  color: var(--clr-secondary);
+  outline: var(--clr-secondary) solid 1px;
+}
+
+.btn-outline-success {
+  color: var(--clr-green);
+  outline: var(--clr-green) solid 1px;
+}
+
+.btn-outline-danger {
+  color: var(--clr-red);
+  outline: var(--clr-red) solid 1px;
+}
+
+.btn-outline-warning {
+  color: var(--clr-yellow);
+  outline: var(--clr-yellow) solid 1px;
+}
+
+.btn-outline-info {
+  color: var(--clr-blue);
+  outline: var(--clr-blue) solid 1px;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--clr-primary);
+  color: white;
+}
+
+.btn-outline-secondary:hover {
+  background-color: var(--clr-secondary);
+  color: white;
+}
+
+.btn-outline-success:hover {
+  background-color: var(--clr-green);
+  color: white;
+}
+
+.btn-outline-danger:hover {
+  background-color: var(--clr-red);
+  color: white;
+}
+
+.btn-outline-warning:hover {
+  background-color: var(--clr-yellow);
+  color: white;
+}
+
+.btn-outline-info:hover {
+  background-color: var(--clr-blue);
+  color: white;
+}
+
+/* 
+    Floating Action Button
+*/
+.btn-float-action {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-fa .icon {
+  font-size: 1rem;
+}
+
+/* 
+    Buttons with icons 
+*/
+.btn-with-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.btn .icon {
+  font-size: 1rem;
+}
+
+/* 
+    Button Sizes 
+*/
+.btn-xl {
+  font-size: var(--fs-xl);
+  padding: 0.5rem var(--fs-xl);
+}
+
+.btn-lg {
+  font-size: var(--fs-lg);
+  padding: 0.5rem var(--fs-lg);
+}
+
+.btn-md {
+  font-size: var(--fs-md);
+  padding: 0.5rem var(--fs-md);
+}
+
+.btn-sm {
+  font-size: var(--fs-sm);
+  padding: 0.5rem var(--fs-sm);
+}
