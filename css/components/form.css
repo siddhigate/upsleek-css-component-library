@@ -1,0 +1,67 @@
+.form-control[type="text"],
+.form-control[type="email"],
+.form-control[type="password"] {
+  width: 100%;
+  border-radius: 4px;
+  padding: 0.5rem;
+  outline: 0;
+  border: 1px solid var(--clr-secondary-light);
+  margin: 0.25rem 0;
+}
+
+.form-control[type="text"]:focus,
+.form-control[type="email"]:focus,
+.form-control[type="password"]:focus {
+  border: 2px solid var(--clr-primary);
+}
+
+.form-control[type="text"]:hover,
+.form-control[type="email"]:hover,
+.form-control[type="password"]:hover {
+  box-shadow: var(--bs-gray);
+}
+
+.form-control:disabled {
+  background-color: var(--clr-secondary-light);
+}
+
+.form-control:disabled:hover {
+  box-shadow: none;
+}
+
+.form-label {
+  color: var(--clr-secondary-dark);
+}
+
+.form-label-required::after {
+  content: "*";
+  color: var(--clr-red);
+}
+
+/* 
+    Validations
+*/
+
+.form-validation-msg {
+  font-size: 0.85rem;
+}
+
+.form-validation-msg .icon {
+  margin-right: 0.25rem;
+}
+
+.form-control-danger {
+  border: 2px solid var(--clr-red);
+}
+
+.form-control-warning {
+  border: 2px solid var(--clr-green);
+}
+
+.form-control-error {
+  color: var(--clr-red);
+}
+
+.form-control-success {
+  color: var(--clr-green);
+}
