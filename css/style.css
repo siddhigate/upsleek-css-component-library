@@ -7,6 +7,8 @@
 
 @import './components/alert.css';
 @import './components/buttons.css';
+@import './components/form.css';
+@import './components/image.css';
 
 @import './utilities/container.css';
 @import './utilities/flex.css';

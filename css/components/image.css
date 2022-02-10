@@ -1,0 +1,24 @@
+.img-responsive {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+.img-cover {
+  object-fit: cover;
+}
+
+.img-contain {
+  object-fit: contain;
+}
+
+.img-aspect-1 {
+  aspect-ratio: 1;
+}
+
+.img-aspect-2 {
+  aspect-ratio: 2;
+}
+
+.img-round {
+  border-radius: 50%;
+}
