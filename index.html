@@ -16,6 +16,24 @@
     <h1 class="mt-md mb-md">Upsleek CSS Component Library</h1>
 
     <section class="mx-md">
+      <h2 class="mt-xl mb-md">Modal</h2>
+      <button class="btn btn-primary" id="modal-show-btn">View modal</button>
+      
+      <div class="modal-background d-none">
+        <div class="modal">
+          <div class="modal-content">
+            <button class="modal-close-btn"> <i class="fas fa-times" id="modal-dismiss-btn"></i> </button>
+            <div class="txt-dark fs-lg fw-bold"> Hello there 👋</div>
+            <div class="txt-dark-gray lh-md"> This is modal dialog box you can close it. You can add any information
+              over
+              here.</div>
+            <button class="btn btn-primary">Try it out!</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-md">
       <h2 class="mt-xl mb-md">Simplified Grid</h2>
 
       <p class="txt-gray mb-md">4 column grid</p>
@@ -549,7 +567,7 @@
       </div>
     </section>
   </main>
-
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>

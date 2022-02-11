@@ -13,6 +13,7 @@
 @import './components/form.css';
 @import './components/image.css';
 @import './components/lists.css';
+@import './components/modal.css';
 
 @import './utilities/colors.css';
 @import './utilities/container.css';
