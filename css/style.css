@@ -18,5 +18,6 @@
 @import './utilities/container.css';
 @import './utilities/display.css';
 @import './utilities/flex.css';
+@import './utilities/grid.css';
 @import './utilities/spacing.css';
 @import './utilities/typography.css';
