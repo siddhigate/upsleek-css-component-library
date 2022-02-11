@@ -1,0 +1,109 @@
+.card {
+    position: relative;
+    max-width: 16rem;
+    border: 1px solid var(--clr-secondary-light);
+}
+
+.card .card-image {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    height: 40vh;
+}
+
+.card .card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+.card > .icon {
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: var(--clr-gray);
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1;
+}
+
+.card > .icon:hover {
+    color: var(--clr-red);
+}
+
+.card-shadow {
+    box-shadow: var(--bs-gray-dark);
+}
+
+.card-overlay {
+    position: absolute;
+    background-color: var(--clr-secondary-light);
+    top: 0;
+    bottom:0;
+    right: 0;
+    left:0;
+    opacity: 0.8;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.card-textonly {
+    padding: 1.25rem 0.5rem;
+}
+
+/* 
+    Card - horizontal
+*/
+.card-horizontal {
+    display: flex;
+    height: fit-content;
+    max-width: 100%;
+    border: 1px solid var(--clr-secondary-light);
+
+}
+
+.card-horizontal .card-image {
+    width: 30%;
+    object-fit: cover;
+    object-position: top;
+    margin: 0;
+}
+
+.card-horizontal .card-info {
+    min-height: 20vh;
+    margin: auto 1rem;
+    padding: 1rem 0;
+    flex-grow: 1; 
+    min-width: auto; 
+    overflow: hidden;
+    margin-inline: 2rem;
+}
+
+.card-horizontal .card-actions {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: fit-content;
+}
+
+.card-horizontal .btn {
+    margin-right: auto;   
+    font-size: 0.9rem; 
+}
+
+@media screen and (max-width: 650px) {
+
+    .card-horizontal .card-actions {
+        flex-direction: column;
+        gap: 0;
+        padding-inline: 0.25rem;
+    }
+
+    .card-horizontal .btn {
+        width: 100%;
+    }
+}
