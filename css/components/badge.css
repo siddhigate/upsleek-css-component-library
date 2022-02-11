@@ -74,7 +74,7 @@
 
 .badge-pill {
   background-color: var(--clr-primary);
-  color: white;
+  color: var(--clr-white);
   font-size: 0.75rem;
   padding: 0.25rem 1.5rem;
   border-radius: 3px;
