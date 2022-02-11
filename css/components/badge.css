@@ -71,3 +71,14 @@
   height: 1.5rem;
   min-width: 1.5rem;
 }
+
+.badge-pill {
+  background-color: var(--clr-primary);
+  color: white;
+  font-size: 0.75rem;
+  padding: 0.25rem 1.5rem;
+  border-radius: 3px;
+  position: absolute;
+  top: 10px;
+  left: -10px;
+}
