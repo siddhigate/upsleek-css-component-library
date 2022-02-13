@@ -1,0 +1,121 @@
+.main {
+  min-height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.main .main-info {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.main .main-logo {
+  width: 50%;
+  height: 88vh;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1 .title {
+  background: var(--gradient-blue-purple);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-weight: 600;
+}
+
+.main-info .h1 {
+  color: var(--clr-dark);
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: left;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+.main-info .desc {
+  color: var(--clr-secondary);
+  font-size: 1.2rem;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.main-info .main-cta {
+  text-decoration: none;
+  width: fit-content;
+  background: var(--gradient-blue-purple);
+  padding: 1rem 3.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
+  color: white;
+  cursor: pointer;
+}
+
+.main-info > .main-cta:hover {
+  background: var(--clr-primary);
+}
+
+.logo img {
+  height: 60%;
+  width: 60%;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1200px) {
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main .main-info {
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    margin: 0rem;
+  }
+
+  .main-info .h1 {
+    text-align: center;
+  }
+
+  .main-info .desc {
+    text-align: center;
+  }
+
+  .main .main-logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main-info .h1 {
+    font-size: 2.5rem;
+  }
+  
+  .main .main-info {
+    width: 90%;
+  }
+  
+  .info .h1 .title {
+    display: block;
+  }
+
+  .main-info .desc {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+
+}
