@@ -34,12 +34,6 @@
   border-left: 3px solid var(--clr-purple-light);
 }
 
-.sidebar .active-link {
-  background: var(--clr-light);
-  border-radius: 0.2rem;
-  border-left: 3px solid var(--clr-purple-light);
-}
-
 .sidebar .sub-heading {
   color: var(--clr-dark);
   font-weight: 500;
@@ -71,6 +65,9 @@
     color: inherit;
 }
 
+.sidebar .link-active {
+  font-weight: 900;
+}
 
 @media screen and (max-width: 900px) {
   .sidebar-toggle {
