@@ -7,7 +7,6 @@
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
-  gap: 1rem;
   padding: 1rem;
   border: 1px solid var(--clr-secondary-light);
   margin: 2rem 0;
@@ -16,7 +15,6 @@
 .component-demo-col {
   flex-direction: column;
   align-items: stretch;
-  gap: 0;
 }
 
 .code-snippet {
