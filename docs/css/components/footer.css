@@ -1,0 +1,17 @@
+.footer {
+    border-top: 1px solid var(--clr-light-gray);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+.footer .link {
+    text-decoration: none;
+    color: var(--clr-light-gray)
+}
+
+.footer .link:hover {
+    color: var(--clr-dark-gray);
+    font-weight: 800;
+}

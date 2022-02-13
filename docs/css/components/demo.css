@@ -1,0 +1,22 @@
+.section-component {
+  margin: 2rem 0 4rem 0;
+}
+
+.component-demo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--clr-secondary-light);
+  margin: 2rem 0;
+}
+
+.code-snippet {
+  width: 100%;
+  border: none;
+  margin-top: 1rem;
+  transform: scale(1);
+  overflow: hidden;
+  margin: 1rem 0;
+}
