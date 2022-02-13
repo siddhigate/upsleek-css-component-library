@@ -36,3 +36,8 @@
     text-decoration: none;
     color: inherit;
 }
+
+.sidebar-secondary .content {
+  border-left: 1px solid #d1d5db; 
+  padding-left:1rem
+}
