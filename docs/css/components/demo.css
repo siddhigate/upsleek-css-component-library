@@ -1,5 +1,6 @@
 .section-component {
   margin: 2rem 0 4rem 0;
+  scroll-margin-top: 8rem;
 }
 
 .component-demo {
