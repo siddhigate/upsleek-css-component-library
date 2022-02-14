@@ -1,0 +1,43 @@
+.sidebar-secondary {
+  position: sticky;
+  overscroll-behavior: contain;
+  top: 8rem;
+  height: calc(100vh - 8.125rem);
+  overflow-y: auto;
+}
+
+.sidebar-secondary .title {
+  color: var(--clr-dark-gray);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  display: block;
+  font-weight: 700;
+}
+
+.sidebar-secondary .list {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--clr-light-gray);
+  margin-left: 0.1rem;
+  font-weight: 500;
+}
+
+.sidebar-secondary .list-item {
+  cursor: pointer;
+  line-height: 2;
+}
+
+.sidebar-secondary .list-item:hover {
+  color: var(--clr-dark-gray);
+  font-weight: 700;
+}
+
+.sidebar-secondary .link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.sidebar-secondary .content {
+  border-left: 1px solid #d1d5db; 
+  padding-left:1rem
+}

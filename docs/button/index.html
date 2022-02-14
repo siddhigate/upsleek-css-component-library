@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upsleek | Buttons</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-info-wrapper">
+            <div class="logo">
+                <img src="../assets/logo.png" alt="" class="logo-img">
+                <span class="logo-title">Upsleek</span>
+            </div>
+
+            <nav>
+                <ul class="navigation list-style-none list-inline">
+                    <li><a href="https://github.com/siddhigate" class="nav-link" target="_blank"> <i class="fab fa-github"></i> </a></li>
+                    <li><a href="https://twitter.com/SiddhiGate" class="nav-link" target="_blank"> <i class="fab fa-twitter"></i> </a></li>
+                    <li><a href="https://www.linkedin.com/in/siddhigate/" class="nav-link" target="_blank"> <i class="fab fa-linkedin"></i> </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <button class="sidebar-toggle" aria-controls="primary-navigation">
+            <span class="sr-only" aria-expanded="false">Components</span>
+    </button>
+    
+
+    <div class="docs-container">
+        <div id="components-navigation" class="sidebar" data-visible="false">
+            <div class="sidebar-list-sub">
+                <div class="list-heading">Getting Started</div>
+                <ul class="list">
+                    <li class="list-item"><a href="../installation/" class="link"> Installation </a></li>
+                </ul>
+            </div>
+            <div class="sidebar-list-sub">
+                <div class="list-heading">Components</div>
+                <ul class="list">
+                    <li class="list-item"><a href="../avatar/" class="link"> Avatar </a></li>
+                    <li class="list-item"><a href="../alerts/" class="link"> Alert </a></li>
+                    <li class="list-item"><a href="../badges/" class="link"> Badge </a></li>
+                    <li class="list-item"><a href="../button/" class="link link-active"> Buttons </a></li>
+                    <li class="list-item"><a href="../card/" class="link"> Card </a></li>
+                    <li class="list-item"><a href="../image/" class="link"> Image </a></li>
+                    <li class="list-item"><a href="../form/" class="link"> Input </a></li>
+                    <li class="list-item"><a href="../typography/" class="link"> Text Utilities </a></li>
+                    <li class="list-item"><a href="../lists/" class="link"> Lists </a></li>
+                    <li class="list-item"><a href="../modal/" class="link"> Modal </a></li>
+                    <li class="list-item"><a href="../grid/" class="link"> Simplified Grid </a></li>
+                </ul>
+            </div>
+        </div>
+
+        <main class="docs-main">
+            <h1 class="h1">Buttons</h1>
+            <p class="desc">Upsleek UI provides variety of buttons including basic buttons, outline buttons, disabled
+                buttons, links as buttons, buttons with icon and floating action button </p>
+
+            <section id="basic-buttons" class="section-component">
+                <h2 class="h2">Basic Buttons</h2>
+                <div class="component-demo flex-gap-md">
+                    <button class="btn btn-primary">Primary</button>
+                    <button class="btn btn-secondary">Secondary</button>
+                    <button class="btn btn-success">Success</button>
+                    <button class="btn btn-warning">Warning</button>
+                    <button class="btn btn-danger">Danger</button>
+                    <button class="btn btn-info">Info</button>
+                </div>
+                <iframe class="code-snippet" src="https://carbon.now.sh/embed/sVnCLvEgwDiJ5YrDPbGV"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+
+            <section id="outline-buttons" class="section-component">
+                <h2 class="h2">Outline Buttons</h2>
+                <div class="component-demo flex-gap-md">
+                    <button class="btn btn-outline-primary">Primary</button>
+                    <button class="btn btn-outline-secondary">Secondary</button>
+                    <button class="btn btn-outline-success">Success</button>
+                    <button class="btn btn-outline-warning">Warning</button>
+                    <button class="btn btn-outline-danger">Danger</button>
+                    <button class="btn btn-outline-info">Info</button>
+                </div>
+                <iframe class="code-snippet" src="https://carbon.now.sh/embed/bo3cT39L2ehytfuZnRdw"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+
+            <section id="disabled-buttons" class="section-component">
+                <h2 class="h2">Disabled Buttons</h2>
+                <div class="component-demo flex-gap-md">
+                    <button class="btn btn-primary" disabled>Primary</button>
+                    <button class="btn btn-secondary" disabled>Secondary</button>
+                    <button class="btn btn-success" disabled>Success</button>
+                    <button class="btn btn-warning" disabled>Warning</button>
+                    <button class="btn btn-danger" disabled>Danger</button>
+                    <button class="btn btn-info" disabled>Info</button>
+                </div>
+                <iframe class="code-snippet" src="https://carbon.now.sh/embed/nBol6KQApocZRF8tGKtp"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+
+            <section id="icon-buttons" class="section-component">
+                <h2 class="h2">Buttons with Icons</h2>
+                <div class="component-demo flex-gap-md">
+                    <button class="btn btn-outline-primary"> <i class="fas fa-shopping-cart"></i> Add to Cart </button>
+                    <button class="btn btn-primary"> <i class="fas fa-shopping-cart"></i> Add to Cart </button>
+                </div>
+                <iframe class="code-snippet" src="https://carbon.now.sh/embed/SaRqya5EFkqdB9zXhtpE"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+            
+            <section id="link-buttons" class="section-component">
+                <h2 class="h2">Links as buttons</h2>
+                <div class="component-demo flex-gap-md">
+                    <a href="./" class="btn btn-primary">Primary link</a>
+                    <a href="./" class="btn btn-secondary">Secondary link</a>
+                </div>
+                <iframe class="code-snippet" src="https://carbon.now.sh/embed/Kq5qpTZLu5Xq0I55RwAs"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+
+            <section id="floating-action-button" class="section-component">
+                <h2 class="h2">Floating Action button</h2>
+                <div class="component-demo flex-gap-md">
+                    <button class="btn btn-primary btn-float-action"><i class="fas fa-plus"></i></button>
+                </div>
+                <iframe class="code-snippet" src="https://carbon.now.sh/embed/jrH66Z6ZT3ysiKOHYWpQ"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+
+            <section id="sized-buttons" class="section-component">
+                <h2 class="h2">Sized buttons</h2>
+                <div class="component-demo flex-gap-md">
+                    <button class="btn btn-primary btn-xl">Button XL</button>
+                    <button class="btn btn-primary btn-lg">Button LG</button>
+                    <button class="btn btn-primary btn-md">Button MD</button>
+                    <button class="btn btn-primary btn-sm">Button SM</button>
+                </div>
+                <iframe class="code-snippet" src="https://carbon.now.sh/embed/Kq5qpTZLu5Xq0I55RwAs"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </section>
+
+            <footer class="footer">
+                <a href="../badges/" class="link"> Badges</a>
+                <a href="../card/" class="link">Card </a>
+            </footer>
+        </main>
+
+
+
+        <div class="sidebar-secondary">
+            <div style="border-left: 1px solid #d1d5db; padding-left:1rem">
+                <p class="title">On this page</p>
+                <ul class="list list-style-none">
+                    <li class="list-item"><a href="#basic-buttons" class="link"> Basic buttons </a></li>
+                    <li class="list-item"><a href="#outline-buttons" class="link"> Outline buttons </a></li>
+                    <li class="list-item"><a href="#disabled-buttons" class="link"> Disabled buttons </a></li>
+                    <li class="list-item"><a href="#icon-buttons" class="link"> Buttons with icons </a></li>
+                    <li class="list-item"><a href="#link-buttons" class="link"> Links as buttons </a></li>
+                    <li class="list-item"><a href="#floating-action-button" class="link"> Floating action button </a></li>
+                    <li class="list-item"><a href="#sized-buttons" class="link"> Sized buttons </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/app.js"></script>
+</body>
+</html>
