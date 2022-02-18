@@ -1,0 +1,21 @@
+.search-input-wrapper {
+  background: var(--clr-gray-light);
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.9rem;
+}
+
+.form-control[type="search"] {
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 1.75rem;
+  margin: 0 0.5rem;
+  background: var(--clr-gray-light);
+}
+
+.form-control[type="search"]:focus {
+  border-bottom: 1px solid var(--clr-gray);
+}
