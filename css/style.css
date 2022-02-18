@@ -14,6 +14,9 @@
 @import './components/image.css';
 @import './components/lists.css';
 @import './components/modal.css';
+@import './components/nav.css';
+@import './components/inputs/checkboxradio.css';
+@import './components/inputs/search.css';
 
 @import './utilities/colors.css';
 @import './utilities/container.css';
