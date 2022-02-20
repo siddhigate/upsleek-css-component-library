@@ -1,5 +1,5 @@
 .main {
-  min-height: 80vh;
+  height: 80vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
