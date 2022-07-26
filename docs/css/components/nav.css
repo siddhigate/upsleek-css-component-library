@@ -55,3 +55,13 @@
 .navigation .nav-link:focus {
   color: var(--clr-primary);
 }
+
+@media screen and (max-width: 900px) {
+  .header .logo-title {
+    display: none;
+  }
+
+  .navigation {
+    gap: 1rem;
+  }
+}

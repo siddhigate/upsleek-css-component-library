@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +9,15 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../../assets/favicon.ico" type="image/x-icon" />
 </head>
+
 <body>
-    
+
     <header class="header">
         <div class="header-info-wrapper">
             <div class="logo">
+                <button class="sidebar-toggle" aria-controls="primary-navigation">
+                    <span class="sr-only" aria-expanded="false">Components</span>
+                </button>
                 <img src="../assets/logo.png" alt="" class="logo-img">
                 <span class="logo-title">Upsleek</span>
             </div>
@@ -29,11 +34,6 @@
             </nav>
         </div>
     </header>
-
-    <button class="sidebar-toggle" aria-controls="primary-navigation">
-        <span class="sr-only" aria-expanded="false">Components</span>
-    </button>
-
 
     <div class="docs-container">
         <div id="components-navigation" class="sidebar" data-visible="false">
@@ -64,7 +64,7 @@
 
         <main class="docs-main">
             <h1 class="h1">Cards</h1>
-            <p class="desc">Upsleek UI provides variety of cards including basic vertical card, horizontal card, 
+            <p class="desc">Upsleek UI provides variety of cards including basic vertical card, horizontal card,
                 card with shadow, card with badge, card with text overlay, card with dismiss and text only card. </p>
 
             <section id="basic-card" class="section-component">
@@ -175,14 +175,14 @@
                     <div class="card card-shadow">
                         <img src="../../assets/images/card.jpg" alt="" class="img-responsive card-image">
                         <div class="card-info">
-                          <p class="txt-dark-gray fw-semibold fs-md">Winter wear</p>
-                          <p class="txt-gray fw-semibold">Yellow and white dress</p>
-                          <p>
-                            <span class="fw-bolder"> Rs. 999 </span>
-                            <span class="txt-strike-through txt-secondary fs-sm mx-sm">Rs.2000</span>
-                            <span class="txt-green">50% off</span>
-                          </p>
-                          <p class="fs-sm">Free delivery</p>
+                            <p class="txt-dark-gray fw-semibold fs-md">Winter wear</p>
+                            <p class="txt-gray fw-semibold">Yellow and white dress</p>
+                            <p>
+                                <span class="fw-bolder"> Rs. 999 </span>
+                                <span class="txt-strike-through txt-secondary fs-sm mx-sm">Rs.2000</span>
+                                <span class="txt-green">50% off</span>
+                            </p>
+                            <p class="fs-sm">Free delivery</p>
                         </div>
                         <i class="fa-solid fa-heart icon"></i>
                     </div>
@@ -196,24 +196,24 @@
                 <h2 class="h2">Text only card</h2>
                 <div class="component-demo">
                     <div class="card card-textonly">
-                        <div class="card-info">               
-                          <p class="txt-dark-gray fw-semibold fs-md">Winter wear</p>
-                          <p class="txt-gray fw-semibold">Yellow and white dress</p>
-                          <p>
-                            <span class="fw-bolder"> Rs. 999 </span>
-                            <span class="txt-strike-through txt-secondary fs-sm mx-sm">Rs.2000</span>
-                            <span class="txt-success">50% off</span>
-                          </p>
-                          <p class="fs-sm">Free delivery</p>
-                          <div class="card-actions">
-                            <button class="btn btn-primary"> 
-                                <i class="fas fa-shopping-cart icon"></i> Add to Cart
-                            </button>
-                          </div>
+                        <div class="card-info">
+                            <p class="txt-dark-gray fw-semibold fs-md">Winter wear</p>
+                            <p class="txt-gray fw-semibold">Yellow and white dress</p>
+                            <p>
+                                <span class="fw-bolder"> Rs. 999 </span>
+                                <span class="txt-strike-through txt-secondary fs-sm mx-sm">Rs.2000</span>
+                                <span class="txt-success">50% off</span>
+                            </p>
+                            <p class="fs-sm">Free delivery</p>
+                            <div class="card-actions">
+                                <button class="btn btn-primary">
+                                    <i class="fas fa-shopping-cart icon"></i> Add to Cart
+                                </button>
+                            </div>
                         </div>
                         <i class="fa-solid fa-heart icon"></i>
                     </div>
-                
+
                 </div>
                 <iframe class="code-snippet" src="https://carbon.now.sh/embed/BE2sM8yMUcaoIFlj3ubC"
                     sandbox="allow-scripts allow-same-origin">
@@ -225,19 +225,19 @@
                 <div class="component-demo">
                     <div class="card card-textonly">
                         <div class="card-info">
-                          <p class="txt-dark-gray fw-semibold fs-md">Winter wear</p>
-                          <p class="txt-gray fw-semibold">Yellow and white dress</p>
-                          <p>
-                            <span class="fw-bolder"> Rs. 999 </span>
-                            <span class="txt-strike-through txt-secondary fs-sm mx-sm">Rs.2000</span>
-                            <span class="txt-success">50% off</span>
-                          </p>
-                          <p class="fs-sm">Free delivery</p>
-                          <div class="card-actions">
-                            <button class="btn btn-primary">
-                              <i class="fas fa-shopping-cart icon"></i> Add to Cart
-                            </button>
-                          </div>
+                            <p class="txt-dark-gray fw-semibold fs-md">Winter wear</p>
+                            <p class="txt-gray fw-semibold">Yellow and white dress</p>
+                            <p>
+                                <span class="fw-bolder"> Rs. 999 </span>
+                                <span class="txt-strike-through txt-secondary fs-sm mx-sm">Rs.2000</span>
+                                <span class="txt-success">50% off</span>
+                            </p>
+                            <p class="fs-sm">Free delivery</p>
+                            <div class="card-actions">
+                                <button class="btn btn-primary">
+                                    <i class="fas fa-shopping-cart icon"></i> Add to Cart
+                                </button>
+                            </div>
                         </div>
                         <i class="fas fa-times icon"></i>
                     </div>
@@ -265,7 +265,7 @@
                     <li class="list-item"><a href="#textoverlay-card" class="link"> Card with text overlay </a></li>
                     <li class="list-item"><a href="#shadow-card" class="link"> Card with shadow </a></li>
                     <li class="list-item"><a href="#textonly-card" class="link"> Text only card </a></li>
-                    <li class="list-item"><a href="#dismiss-card" class="link"> Card with dismiss </a></li>                    
+                    <li class="list-item"><a href="#dismiss-card" class="link"> Card with dismiss </a></li>
                 </ul>
             </div>
         </div>
